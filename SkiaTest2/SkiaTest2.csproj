@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net10.0-windows</TargetFrameworks>
+	  <StrideGraphicsApi>Vulkan</StrideGraphicsApi>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="3.119.1" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="3.119.1" />
+    <PackageReference Include="Stride.Engine" Version="4.3.0.1" />
+	<PackageReference Include="Stride.Shaders.Compiler" Version="4.3.0.1" />
+
+    <PackageReference Include="Stride.Video" Version="4.3.0.1" />
+    <PackageReference Include="Stride.Physics" Version="4.3.0.1" />
+    <PackageReference Include="Stride.Navigation" Version="4.3.0.1" />
+    <PackageReference Include="Stride.Particles" Version="4.3.0.1" />
+    <PackageReference Include="Stride.UI" Version="4.3.0.1" />
+
+    <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.3.0.1" IncludeAssets="build;buildTransitive" />
+  </ItemGroup>
+
+
+</Project>
